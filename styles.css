@@ -1,0 +1,123 @@
+BODY.workMain {
+	margin: 0;
+	padding 0;
+	background-color: white;
+	background-image: url("images/docbkg.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+TABLE.workHeader {
+}
+
+TABLE.workPage {
+}
+
+TABLE.workRule {
+	border-collapse: collapse;
+	border-top: 10px solid #770077;
+	border-bottom: 10px solid #CC00CC;
+}
+
+TR.workRule {
+	background-color: #007100;
+}
+
+H2.workRule {
+	border: hidden;
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: x-large;
+	color: white;
+	bakground-color: #F09B00;
+}
+
+IMG.workTag {
+	border-style: none;
+}
+
+A.workLink {
+	font-family: sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	padding-left: 3%;
+}
+
+A.workPara {
+	font-family: sans-serif;
+	font-size: small;
+	text-align: left;
+}
+
+H2.workHead {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: x-large;
+}
+
+H3.workHead {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: large;
+	padding-top: 1em;
+}
+
+H4.workHead {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: medium;
+}
+
+MARQUEE.marquee {
+	border-top: solid;
+	border-top-width: 1px;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-color: #CC00CC;
+}
+
+SUB.marquee {
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: x-small;
+	font-weight: bold;
+	color: #770077;
+}
+
+P.marquee {
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: medium;
+	font-weight: bold;
+	color: #770077;
+}
+
+P.workPara {
+	font-family: sans-serif;
+	font-size: small;
+	text-align: left;
+}
+
+P.workIndPara {
+	font-family: sans-serif;
+	font-size: small;
+	text-align: left;
+	margin-left: 2em;
+}
+
+TD.wkIndex {
+	vertical-align: top;
+}
+
+
+UL.wkList {
+}
+
+LI.wkList {
+	font-family: sans-serif;
+	font-size: small;
+	text-align: left;
+	list-style-type: disc;
+}
+
