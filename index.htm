@@ -1,120 +1,73 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<!DOCTYPE html public "-//W3C//DTD HTML 4.0//EN">
 
 <!-- site and development by fern@thecrunchycorner.com -->
-<!-- generated using vi      validated using html tidy -->
+<!-- generated using visual studio code -->
 
-<HTML xmlns="http://www.w3.org/1999/xhtml">
-	
-	<HEAD>
-		<TITLE>The Crunchy Corner: Home</TITLE>
-		<!--<LINK REL="stylesheet" HREF="styles.css" TYPE="text/css">-->
-		<META http-equiv=Content-Type content="text/html; charset=utf-8">
-		<META content="System design, development, deployment, integration, data migration, mobile banking, financial, healthcare" name=Description>
-		<META content="java, sql, perl, c, jboss, weblogic, websphere, glassfish, clojure, cobol, lisp, scheme, c, pick, databasic, xml, x12, edifact, hl7, m68k, ql, qdos " name=Keywords>
-	</HEAD>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    
+    <head>
+        <title>The Crunchy Corner: Home</title>
+        <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="development, deployment, agile, tdd, system design, integration, data migration, mobile banking, financial, fleet management, healthcare">
+        <meta name="keywords" content="javascript, java, node, sql, perl, c, tomcat, jboss, weblogic, websphere, glassfish, clojure, cobol, lisp, scheme, c, pick, databasic, xml, x12, edifact, hl7, m68k, ql, qdos ">
+        <meta name="author" content="fern gonzalez">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="skeleton.css" type="text/css">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <script src="js/site.js"></script>
+    </head>
 
-	<BODY CLASS="workMain">
+    <body>
+        <div class="container">
+            <section class="header">
+                <h2 class="title">Software, tailored for you.</h2>
+                <img src="images/mainkitty.png">
+                <div class="value-props row">
+                        <div class="four columns value-prop">
+                          <img class="value-img" src="images/square.svg">
+                          Software Development.
+                        </div>
+                        <div class="four columns value-prop">
+                          <img class="value-img" src="images/integration.svg">
+                          Systems Integration.
+                        </div>
+                        <div class="four columns value-prop">
+                          <img class="value-img" src="images/industry.svg">
+                          Wide industry, language and environment background.
+                        </div>
+                      </div>
+            </section>
 
-		<TABLE CLASS="workHeader" SUMMARY="page header">
-			<COLGROUP>
-				<COL WIDTH="30%" ALIGN="LEFT"><COL WIDTH="5%"><COL WIDTH="65%" ALIGN="RIGHT">
-			</COLGROUP>
-			<TR>
-				<TD>
-					<MAP NAME="workClickhome">
-						<AREA SHAPE="rectangle" COORDS="0,0,400,83" HREF="index.htm" ALT="go back to the crunchy corner home page" TITLE="workHomepage">
-					</MAP>
-					<IMG SRC="images/mainkitty.png" CLASS="workTag" ALT="hometag" USEMAP="#workClickHome">
-				</TD>
-				<TD></TD>
-				<TD ALIGN="RIGHT" VALIGN="BOTTOM">
-					<A CLASS="workLink" HREF="index.htm" TITLE="home">Home</A>
-					<A CLASS="workLink" HREF="about.htm" TITLE="about">About Us</A>
-					<A CLASS="workLink" HREF="aboutClients.htm" TITLE="clients">Our Clients</A>
-					<A CLASS="workLink" HREF="blogs.htm" TITLE="blogs">Blogs</A>
-					<A CLASS="workLink" HREF="contact.htm" TITLE="contact Us">Contact Us</A>
-				</TD>
-			</TR>
-		</TABLE>
+            <div class="navbar-spacer"></div>
+            <nav class="navbar">
+                <div >
+                    <ul class="navbar-list">
+                        <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#about">About Us</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#clients">Our Clients</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#blogs">Blogs</a></li>
+                        <li class="navbar-item"><a class="navbar-link" href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="navbar-spacer"></div>
+            <div class="docs-section" id="intro">
+                <h6 class="docs-header">The Crunchy Corner</h6>
+                <p> I set up the Crunchy Corner ten years ago wanting to apply my knowledge in a wider range of business domains.  With over twenty years of experience in systems development and integration in financial, health care and security environments I feel confident that working together with your organisation we can make the most of your information, teams and systems. </p>
+                <p> Past clients have included: Monitise Group, BT Global Services, GE, Chelsea and Westminster Healthcare and others.  A longer list of clients and case studies can be found here: <A HREF="aboutClients.htm" TITLE="The Crunchy Coner's Clients">The Crunchy Corners Clients</A>. </p>
+                <h6 class="docs-header">Development</h6>
+                <p> Tailored solutions give clients the reliability, quality and support that is vital in today's environment.  Whether you need a standalone application on a Windows or Unix system, or a complete integration solution based on heavy duty Java Application Servers providing REST services as part of a modern mobile solution, my experience providing solutions in all environments along that spectrum will save you the trouble of re-inventing the wheel and avoid painful lessons. </p>
+                <p> The experience gained in a number of languages and environments including Java/J2EE/Spring within Websphere, Weblogic and Glassfish; core Java within e*gate; C and COBOL within legacy systems and Python/Perl in light weight applications and build systems can all be applied to your company's development environments. </p>
+                <h6 class="docs-header">Integration Consultancy</h6>
+                <p> Organisations often have a myriad of systems acting as stand alone repositories holding information vital to more than just one part of the business. </p>
+                <p> Integration allows your organisation to treat these disparate data sources, either by data migration or through automated data exchange as a single, cohesive data source.  Integration allows you to increase the speed of individual transactions, gives faster reporting turn-around and more importantly, vastly reduces data quality issues by automating application interactions. </p>
+                <p> In some cases it will be necessary to review and modify existing code to meet your integration needs.  With many years in software development you can rest assured any code changes made as part of your project will be seamless. </p>
+                <h6 class="docs-header">System Analysis, Deployment and Support</h6>
+                <p> Upgrades, moves to alternative technologies or the introduction of new components or infrastructure can affect existing systems.  Using the experience I have accumulated through vastly different projects I can help analyse the impact such a move will have on your current processes.  This will help to identify what changes are needed within your organisation to support the move. </p>
+            </div>
+    </body>
 
-		<TABLE CLASS="workRule" SUMMARY="home title">
-			<COLGROUP>
-				<COL WIDTH="150"><COL WIDTH="50%"><COL WIDTH="50%">
-			</COLGROUP>
-			<TR CLASS="workRule">
-				<TD></TD>
-				<TD>
-					<H2 CLASS="workRule">Home</H2>
-				</TD>
-				<TD></TD>
-			</TR>
-		</TABLE>
-
-		<TABLE CLASS="workPage" SUMMARY="main intro">
-			<COLGROUP>
-				<COL WIDTH="150"><COL WIDTH="*"><COL WIDTH="150">
-			</COLGROUP>
-			<TR>
-				<TD></TD>
-				<TD>
-					<H2 CLASS="workHead">The Crunchy Corner</H2>
-					<P CLASS="workPara">
-						I set up the Crunchy Corner five years ago wanting to apply my knowledge in a wider range of business domains.  With over 15 years of experience in systems development and integration in financial, health care and security environments I feel confident that working together with your organisation we can make the most of your information, teams and systems. 
-					</P>
-					<P CLASS="workPara">
-						Past clients have included: Monitise Group, BT Global Services, GE, Chelsea and Westminster Healthcare and others.  A longer list of clients and case studies can be found here: <A CLASS="workPara" HREF="aboutClients.htm" TITLE="The Crunchy Coner's Clients">The Crunchy Corners Clients</A>.
-					</P>
-					<H3 CLASS="workHead">Development</H3>
-					<P CLASS="workPara">
-						Tailored solutions give clients the reliability, quality and support that is vital in today's environment.  Whether you need a standalone application on a Windows or Unix system, or a complete integration solution based on heavy duty Java Application Servers providing REST services as part of a modern mobile solution, my experience providing solutions in all environments along that spectrum will save you the trouble of re-inventing the wheel and avoid painful lessons. 
-					</P>
-					<P CLASS="workPara">
-						The experience gained in a number of languages and environments including Java/J2EE/Spring within Websphere, Weblogic and Glassfish; core Java within e*gate; C and COBOL within legacy systems and Python/Perl in light weight applications and build systems can all be applied to your company's development environments.
-					</P>
-					<H3 CLASS="workHead">Integration Consultancy</H3>
-					<P CLASS="workPara">
-						Organisations often have a myriad of systems acting as stand alone repositories holding information vital to more than just one part of the business.
-					</P>
-					<P CLASS="workPara">
-						Integration allows your organisation to treat these disparate data sources, either by data migration or through automated data exchange as a single, cohesive data source.  Integration allows you to increase the speed of individual transactions, gives faster reporting turn-around and more importantly, vastly reduces data quality issues by automating application interactions.
-					</P>
-					<P CLASS="workPara">
-						In some cases it will be necessary to review and modify existing code to meet your integration needs.  With many years in software development you can rest assured any code changes made as part of your project will be seamless.
-					</P>
-					<H3 CLASS="workHead">System Analysis, Deployment and Support</H3>
-					<P CLASS="workPara">
-						Upgrades, moves to alternative technologies or the introduction of new components or infrastructure can affect existing systems.  Using the experience I have accumulated through vastly different projects I can help analyse the impact such a move will have on your current processes.  This will help to identify what changes are needed within your organisation to support the move.
-					</P>
-					<BR>	
-					<P CLASS="workPara">
-						Fernando Gonzalez, Director
-					</P>
-				</TD>
-				<TD></TD>
-			</TR>
-			<TR>
-				<TD COLSPAN=3>
-					<MARQUEE CLASS="marquee">
-						<TABLE>
-							<COLGROUP>
-								<COL><COL>
-							</COLGROUP>
-							<TR>
-								<TD>
-									<P CLASS="marquee">It takes team work to make the dream work.</P>
-								</TD>
-								<TD>
-									<SUB CLASS="marquee">
-										Dennis Pang, 2013
-									</SUB>
-								</TD>
-							</TR>
-						</TABLE>
-					</MARQUEE>
-				</TD>
-			</TR>
-		</TABLE>
-
-	</BODY>
-
-</HTML>
+</html>
