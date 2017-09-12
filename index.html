@@ -15,8 +15,10 @@
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="skeleton.css" type="text/css">
         <link rel="stylesheet" href="styles.css" type="text/css">
-        <link rel="icon" type="image/png" href="images/favicon.png">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
         <script src="js/site.js"></script>
+        <script src="//apis.google.com/js/platform.js" async defer></script>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     </head>
 
     <body>
@@ -43,11 +45,10 @@
             <nav class="navbar">
                 <div >
                     <ul class="navbar-list">
-                        <li class="navbar-item"><a class="navbar-link" id='intro' href="#introSection">Intro</a></li>
-                        <li class="navbar-item"><a class="navbar-link" id='about' href="#aboutSection">About Me</a></li>
-                        <li class="navbar-item"><a class="navbar-link" id='client' href="#clientSection"> Clients</a></li>
-                        <li class="navbar-item"><a class="navbar-link" id='blogs' href="#blogsSection">Blogs</a></li>
-                        <li class="navbar-item"><a class="navbar-link" id='contact' href="#contactSection">Contact Us</a></li>
+                        <li class="navbar-item"><a class="navbar-link internal" id='intro' href="#introSection">Intro</a></li>
+                        <li class="navbar-item"><a class="navbar-link internal" id='about' href="#aboutSection">About Me</a></li>
+                        <li class="navbar-item"><a class="navbar-link internal" id='client' href="#clientSection"> Clients</a></li>
+                        <li class="navbar-item"><a class="navbar-link" target="_blank" id='blogs' href="https://thecrunchycorner.com/blog/">Blogs</a></li>
                     </ul>
                 </div>
             </nav>
@@ -73,6 +74,14 @@
 
             <div class="docs-section" id="aboutSection">
                 <h6 class="docs-header">About Me</h6>
+
+                <iframe src="https://ghbtns.com/github-btn.html?user=ferng&type=follow&count=false" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+                <div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/117148752822862174069" data-rel="author"></div>
+                <a href="https://twitter.com/ferng001" class="twitter-follow-button" data-show-count="false"></a>
+                <a href="https://stackoverflow.com/users/1452303/ferng001" class="stack-overflow"></a>
+                <a href="https://www.linkedin.com/in/fernando-gonzalez-254a364" class="linkedin"></a>
+
+
                 <p> I am a software consultant based in London, my focus is development and integration services. I specialise in working with organisations that produce business support software systems. </p>
                 <p> I understand the commercial needs of modern businesses and how custom software can be used to improve performance and profitability. Whether you need bespoke software development, or additional programming services to complete an existing project, I can help. </p>
                 <p> If the application you want is stand-alone, web-based or mobile application; using a custom database and based across platforms I can help with free advice and a detailed quotation for custom software. </p>

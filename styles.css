@@ -84,6 +84,24 @@
     padding-left: 1em;
 }
 
+.stack-overflow {
+    background: url(images/so-logo.svg) no-repeat 25px;
+    width: 120px;
+    height: 25px;
+    display: inline-flex;
+}
+
+.linkedin {
+    background: url(images/Logo-2C-14px.png) no-repeat 14px;
+    width: 100px;
+    height: 14px;
+    display: inline-flex;
+}
+
+.hidden {
+    display: none;
+}
+
 @media (min-width: 550px) {
     .header {
         margin-top: 9rem;

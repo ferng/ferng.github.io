@@ -13,7 +13,7 @@ window.addEventListener('scroll', function() {
 
 
 window.onload = function() {
-    var links = document.querySelectorAll('.navbar-link');
+    var links = document.querySelectorAll('.internal');
     links.forEach(function(link) {
         link.addEventListener('click', redrawSections);
     })
@@ -32,14 +32,14 @@ function redrawSections() {
 
 
 function hideSections() {
-    var sections = document.querySelectorAll('.docs-section');
-    sections.forEach(function(section) {
-        section.style.display = 'none';
+    var displaySection = document.querySelectorAll('.docs-section');
+    displaySection.forEach(function(section) {
+        section.classList.add('hidden');
     })
 }
 
 
 function displaySection(section) {
     var displaySection = document.getElementById(section);
-    displaySection.style.display = 'block';
+    displaySection.classList.remove('hidden');
 }
