@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+.banner-img {
+    width: 50%;
+    height: auto;
+}
+
 .value-prop {
     margin-top: 1rem;
 }
@@ -105,6 +110,10 @@
 @media (min-width: 550px) {
     .header {
         margin-top: 9rem;
+    }
+    .banner-img {
+        width: 100%;
+        height: auto;
     }
     .value-props {
         margin-top: 9rem;
