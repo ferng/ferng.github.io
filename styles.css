@@ -1,3 +1,8 @@
+body {
+    font-size: 1.8rem;
+    color: #666;
+}
+
 .header {
     margin-top: 6rem;
     text-align: center;
@@ -26,9 +31,8 @@
 }
 
 .docs-header {
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    letter-spacing: .2rem;
+    font-size: 2.8rem;
+    letter-spacing: 0;
     font-weight: 600;
 }
 
@@ -97,7 +101,7 @@
 }
 
 .linkedin {
-    background: url(images/Logo-2C-14px.png) no-repeat 14px;
+    background: url(images/LinkedIn.png) no-repeat 14px;
     width: 100px;
     height: 14px;
     display: inline-flex;
@@ -105,6 +109,13 @@
 
 .hidden {
     display: none;
+}
+
+.blog-sub-header {
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    color: #999;
 }
 
 @media (min-width: 550px) {
