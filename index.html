@@ -1,7 +1,7 @@
 <!DOCTYPE html public "-//W3C//DTD HTML 4.0//EN">
 
 <!-- site and development by fern@thecrunchycorner.com -->
-<!-- generated using visual studio code -->
+<!-- generated using vim -->
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     
@@ -10,7 +10,7 @@
         <meta http-equiv=Content-Type content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="development, deployment, agile, tdd, system design, integration, data migration, mobile banking, financial, fleet management, healthcare">
-        <meta name="keywords" content="javascript, java, node, sql, perl, c, tomcat, jboss, weblogic, websphere, glassfish, clojure, cobol, lisp, scheme, c, pick, databasic, xml, x12, edifact, hl7, m68k, ql, qdos ">
+        <meta name="keywords" content="javascript, java, node, sql, perl, c, tomcat, quarkus, jboss, weblogic, websphere, glassfish, pure data, puredata, clojure, cobol, lisp, scheme, c, pick, databasic, xml, x12, edifact, hl7, m68k, ql, qdos ">
         <meta name="author" content="fern gonzalez">
         <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="skeleton.css" type="text/css">
@@ -55,7 +55,7 @@
             <div class="docs-section" id="introSection">
                 <h6 class="docs-header">The Crunchy Corner</h6>
                 <p>The Crunchy Corner was set up over ten years ago as I wanted to apply the knowledge I had gained so far in a wider range of industries while being exposed to different itechnologies and business processes. With that experience I feel confident that working together with your organization we can make the most of your information, teams and systems.</p>
-                <p>I have worked with major organizations in the financial, health care and security sectors, these include: the European Medicines Agency, Motability Operations, Sporting Index, Finkit (formerly Monitise) and BT Global Services. A full list of clients and case studies can be found <a herf="aboutClients.htm" title="The Crunchy Coner's Clients">here</a>.</p>
+                <p>I have worked with major organizations in the financial, health care and security sectors, these include: pEp Security, the European Medicines Agency, Motability Operations, Sporting Index, Finkit (formerly Monitise) and BT Global Services. A full list of clients and case studies can be found <a herf="aboutClients.htm" title="The Crunchy Coner's Clients">here</a>.</p>
                 <h6 class="docs-header">Software Development</h6>
                 <p>Tailored solutions give clients the reliability, quality and support that is vital in today's business environment.</p>
                 <p>Systems are usually based on a mixture of languages running on a variety of platforms, this means any additions to your team are unlikely to have a background that perfectly matches your unique combination of languages, frameworks, OS, databases, testing tools, firewalls and a dozen other other ancialliary services. A sensible approach is to find someone who has a solid knowledge on the major technologies you use and the proven flexibility to pick up any additional ones quickly.</p>
@@ -100,8 +100,8 @@
                 </div>
                 <p>At the same time the spectrum of technologies and methodologies I have worked with has grown from the mainstream, to the more esoteric side of development and system integration, these include:</p>
                 <ul class="hanging-list">
-                    <li class="hanging-item"><strong>Development</strong>: Java, JavaScript/TypeScript, Fuse, Spring, Hibernate, Angular, React, nodeJs, MyBatis, Struts, SQL, shell scripting, Perl, C, C++, LISP/scheme, COBOL, Pick Basic, Databasic, CCL, Monk, Enform, VB, M68K. TDD, BDD, Cucumber, Selenium, Geb. Intellij, Eclipse, Ant, Maven, Ivy, Git, Subversion. Performance tuning.</li>
-                    <li class="hanging-item"><strong>Messaging</strong>: REST, JSON, XML, SOAP, X12, HL7, RIMs, EDIFACT, FIX, eGIF, CorDM, HL7. IBM WebSphere MQ v5/6.x, SeeBeyond eGate.</li>
+                    <li class="hanging-item"><strong>Development</strong>: Java, JavaScript/TypeScript, Fuse, Spring, Hibernate, Angular, React, nodeJs, MyBatis, Struts, SQL, shell scripting, Perl, C, C++, Pure Data, LISP/scheme, COBOL, Pick Basic, Databasic, CCL, Monk, Enform, VB, M68K. TDD, BDD, Cucumber, Selenium, Geb. Intellij, Eclipse, Ant, Maven, Ivy, Git, Subversion. Performance tuning.</li>
+                    <li class="hanging-item"><strong>Messaging</strong>: REST, JSON, XML, SOAP, X12, SWIFT, HL7, RIMs, EDIFACT, FIX, eGIF, CorDM, HL7. IBM WebSphere MQ v5/6.x, SeeBeyond eGate.</li>
                     <li class="hanging-item"><strong>Environments</strong>: Unix (Linux, IBM AIX, HP-UX, Solaris), HP NonStop, Universe (Pick).</li>
                     <li class="hanging-item"><strong>Productivity Tools</strong>: Jenkins, Docker, Atlassian, HP Openview, Borland StarTeam, Mercury Quality Centre, Merant Dimensions, Microsoft, Lotus, PeopleSoft, Vantive CRM.</li>
                     <li class="hanging-item"><strong>Analysis</strong>: GAP/System analysis, data modelling, capacity planning. System integration. Exit strategy analysis: Code / documentation reconciliation.</li>
@@ -117,6 +117,11 @@
             <div class="docs-section" id="clientSection">
                 <p>Over time I have worked with a large number of organizations from a wide range of industries. The projects have varied from simple stand alone database browsers, through to a Europe-wide mobile payments system.</p>
                 <p>I use a combination of technical and business skills to create custom software solutions that work. I have extensive experience in gathering, managing and documenting business and functional requirements, communicating effectively with management, developers, test teams and infrastructure engineers.</p>
+                <h6 class="docs-header">pEp Security</h6>
+                <p>Financial services technology provider. pEp Security aims to provide seamless and transparent message encryption which manages key exchanges, this reduces the burden on deployment, security and support teams. Although it's primary market is SWIFT financial messaging any client can benefit from the addition of encrypted messaging. The data content is irrelevant so any messaging infrastructure can implement the pEp encryption system.</p>
+                <ul class="hanging-list">
+                    <li class="hanging-item">I worked as part of a remote agile team implementing a java based MQ plugin allowing fully encrypted end-to-end SWIFT messaging with automated key exchange and TOFU. This was based on Java, quarkus and Swagger/OpenAPI. I introduced automation of configuration file parsing and validation thereby removing calls raised by ops/customers when deploying the product with configuration errors. I also developed a flexible quarantine rules engine allowing filtering based on configuration.</li>
+                </ul>
                 <h6 class="docs-header">Fiserv</h6>
                 <p>Financial services technology provider. Fiserv's systems are tailored to specific markets including: high street banks, security brokers, finance houses. My involvement here was specifically with products offered to BNP Paribas. The main product BNPP use to build their own application, this goes from the DB schema right through the front end and business rules controlling screen flow, field validation and message processing workflows, the client tailors this behaviour using a proprietary DSL.</p>
                 <ul class="hanging-list">
